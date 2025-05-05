@@ -1,0 +1,46 @@
+{
+  "name": "hoyt-bot",
+  "version": "1.0.0",
+  "description": "Delta-neutral LP hedging bot for PENDLE/USDT on Arbitrum and Hyperliquid",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2",
+    "viem": "^1.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "c8": "^8.0.1",
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "vitest": "^0.34.6"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "defi",
+    "delta-neutral",
+    "hedge",
+    "uniswap",
+    "hyperliquid",
+    "arbitrum",
+    "pendle"
+  ],
+  "author": "",
+  "license": "MIT"
+}
